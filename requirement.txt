@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+psycopg2-binary
+openpyxl
+google-api-python-client
+google-auth
+load_dotenv

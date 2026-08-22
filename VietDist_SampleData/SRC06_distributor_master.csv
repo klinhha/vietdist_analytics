@@ -1,0 +1,139 @@
+﻿distributor_id,distributor_name,tier,channel,province,region,contact_person,phone,email,tax_code,join_date,credit_limit,status,assigned_supervisor_id
+DIST0001,Công ty CP Trần Minh Hải Dịch vụ,Đại lý cấp 2,Traditional Trade,Hà Nội,Miền Bắc,Lê Hữu Ngân,02320109001,dist0001@gmail.com,1059726454,2021-02-18,1000000000,Active,EMP1097
+DIST0002,Công ty CP Lê Công Mai Thương mại,Điểm bán lẻ,Traditional Trade,Hà Nội,Miền Bắc,Dương Hữu Long,02879902880,dist0002@gmail.com,5119178016,2022-03-17,1000000000,Active,EMP1067
+DIST0003,Công ty TNHH Nguyễn Công Khoa Thương mại,Điểm bán lẻ,E-commerce,Hà Nội,Miền Bắc,Phạm Thị Nam,02631546491,dist0003@gmail.com,5050102995,2015-09-27,500000000,Active,EMP1082
+DIST0004,Công ty TNHH Nguyễn Hồng Thắng Phân phối,Đại lý cấp 2,Traditional Trade,Hà Nội,Miền Bắc,Đỗ Đức Nam,02268095397,dist0004@gmail.com,6846246925,2019-12-31,500000000,Active,EMP1012
+DIST0005,Công ty TNHH Ngô Thị Hà Phân phối,Đại lý cấp 2,E-commerce,Hà Nội,Miền Bắc,Bùi Đức Thắng,02634814619,dist0005@gmail.com,6474777663,2019-04-20,2000000000,Active,EMP1043
+DIST0006,Công ty CP Dương Thành Sơn Dịch vụ,Điểm bán lẻ,Traditional Trade,Hà Nội,Miền Bắc,Lý Thị Khoa,02540379181,dist0006@gmail.com,7147801273,2017-11-21,200000000,Active,EMP1067
+DIST0007,Công ty CP Hoàng Đức Thắng Phân phối,Điểm bán lẻ,E-commerce,Hà Nội,Miền Bắc,Bùi Văn Cường,02218452952,dist0007@gmail.com,7752489521,2017-08-11,200000000,Inactive,EMP1023
+DIST0008,Công ty Tư nhân Đặng Xuân Kiên Thương mại,Đại lý cấp 2,E-commerce,Hà Nội,Miền Bắc,Vũ Minh Nhân,02841000641,dist0008@gmail.com,6589252428,2017-03-12,2000000000,Active,EMP1023
+DIST0009,Công ty TNHH Đỗ Quốc An Dịch vụ,Điểm bán lẻ,E-commerce,Hải Phòng,Miền Bắc,Phạm Hữu Linh,02822976900,dist0009@gmail.com,2546107464,2015-12-18,500000000,Active,EMP1034
+DIST0010,Công ty Tư nhân Vũ Hữu Quân Dịch vụ,Nhà phân phối cấp 1,E-commerce,Hải Phòng,Miền Bắc,Ngô Công Giang,02423407005,dist0010@gmail.com,1505283951,2018-07-26,1000000000,Active,EMP1067
+DIST0011,Công ty Tư nhân Bùi Bá Tiến Dịch vụ,Đại lý cấp 2,Traditional Trade,Hải Phòng,Miền Bắc,Hồ Bá Quân,02632382130,dist0011@gmail.com,1839650356,2018-05-24,2000000000,Active,EMP1043
+DIST0012,Công ty TNHH Bùi Thanh Quân Phân phối,Điểm bán lẻ,Modern Trade,Hải Phòng,Miền Bắc,Nguyễn Hữu Yến,02210063357,dist0012@gmail.com,2229276273,2015-01-09,500000000,Active,EMP1034
+DIST0013,Công ty Tư nhân Huỳnh Bá Phúc Dịch vụ,Nhà phân phối cấp 1,Traditional Trade,Hải Phòng,Miền Bắc,Dương Bá Vân,02455818974,dist0013@gmail.com,2407409076,2016-09-24,2000000000,Active,EMP1012
+DIST0014,Công ty CP Nguyễn Công Quân Dịch vụ,Đại lý cấp 2,Traditional Trade,Hải Phòng,Miền Bắc,Ngô Thành Mai,02983942686,dist0014@gmail.com,6290161628,2021-01-02,1000000000,Active,EMP1001
+DIST0015,Công ty CP Hoàng Đức Trung Phân phối,Nhà phân phối cấp 1,E-commerce,Hải Phòng,Miền Bắc,Phạm Thanh Tuấn,02746188571,dist0015@gmail.com,2492085564,2016-04-13,2000000000,Active,EMP1082
+DIST0016,Công ty CP Bùi Hồng Kiên Phân phối,Điểm bán lẻ,Modern Trade,Hải Phòng,Miền Bắc,Đỗ Quốc Giang,02967892035,dist0016@gmail.com,4062156382,2015-12-16,500000000,Active,EMP1023
+DIST0017,Công ty CP Đặng Thanh Ngân Dịch vụ,Điểm bán lẻ,Modern Trade,Quảng Ninh,Miền Bắc,Vũ Thị Giang,02234606362,dist0017@gmail.com,9014567314,2015-02-21,1000000000,Active,EMP1082
+DIST0018,Công ty CP Ngô Công Hà Thương mại,Đại lý cấp 2,Modern Trade,Quảng Ninh,Miền Bắc,Lý Thanh Yến,02944580719,dist0018@gmail.com,6311487102,2017-03-12,1000000000,Active,EMP1023
+DIST0019,Công ty TNHH Bùi Hữu Trung Thương mại,Đại lý cấp 2,Modern Trade,Quảng Ninh,Miền Bắc,Phạm Xuân Quân,02587888792,dist0019@gmail.com,7197248773,2020-09-14,1000000000,Active,EMP1067
+DIST0020,Công ty Tư nhân Lê Thành Yến Thương mại,Điểm bán lẻ,Traditional Trade,Quảng Ninh,Miền Bắc,Lý Xuân Vân,02524295826,dist0020@gmail.com,4157813761,2015-12-06,200000000,Inactive,EMP1012
+DIST0021,Công ty CP Huỳnh Hữu Kiên Thương mại,Điểm bán lẻ,Traditional Trade,Bắc Ninh,Miền Bắc,Phạm Công Hải,02464076689,dist0021@gmail.com,1827641231,2015-12-12,200000000,Active,EMP1067
+DIST0022,Công ty TNHH Đỗ Thị Nhân Thương mại,Điểm bán lẻ,E-commerce,Bắc Ninh,Miền Bắc,Hồ Thị Nam,02776638092,dist0022@gmail.com,2091157822,2021-03-04,200000000,Active,EMP1067
+DIST0023,Công ty CP Lý Hồng Tuấn Phân phối,Đại lý cấp 2,E-commerce,Bắc Ninh,Miền Bắc,Dương Thành An,02564667262,dist0023@gmail.com,2460149538,2015-12-02,200000000,Active,EMP1001
+DIST0024,Công ty TNHH Trần Công Trung Dịch vụ,Điểm bán lẻ,Traditional Trade,Bắc Ninh,Miền Bắc,Lý Văn Phúc,02576412209,dist0024@gmail.com,5358694688,2020-12-09,500000000,Active,EMP1001
+DIST0025,Công ty CP Dương Hồng Hà Dịch vụ,Điểm bán lẻ,Traditional Trade,Bắc Ninh,Miền Bắc,Trần Xuân Sơn,02342525134,dist0025@gmail.com,2469828646,2017-12-19,200000000,Active,EMP1043
+DIST0026,Công ty TNHH Vũ Hữu Tuấn Phân phối,Đại lý cấp 2,Traditional Trade,Bắc Ninh,Miền Bắc,Đặng Xuân An,02715196218,dist0026@gmail.com,2762049932,2017-12-10,500000000,Active,EMP1023
+DIST0027,Công ty TNHH Bùi Quốc Yến Dịch vụ,Điểm bán lẻ,Traditional Trade,Bắc Ninh,Miền Bắc,Bùi Xuân Hải,02399538815,dist0027@gmail.com,6157022200,2017-09-24,2000000000,Active,EMP1097
+DIST0028,Công ty Tư nhân Ngô Quốc Hà Dịch vụ,Điểm bán lẻ,E-commerce,Bắc Ninh,Miền Bắc,Lý Quốc Thắng,02330328712,dist0028@gmail.com,5957890017,2020-10-06,2000000000,Active,EMP1034
+DIST0029,Công ty Tư nhân Lê Xuân Tuấn Dịch vụ,Đại lý cấp 2,E-commerce,Hưng Yên,Miền Bắc,Hồ Hồng Nam,02329354445,dist0029@gmail.com,1067282568,2021-12-13,2000000000,Active,EMP1034
+DIST0030,Công ty TNHH Bùi Minh Phương Thương mại,Đại lý cấp 2,E-commerce,Hưng Yên,Miền Bắc,Lý Thị Phương,02877649869,dist0030@gmail.com,4983061362,2019-03-10,200000000,Active,EMP1023
+DIST0031,Công ty CP Nguyễn Công Linh Dịch vụ,Đại lý cấp 2,E-commerce,Hưng Yên,Miền Bắc,Lê Thành Long,02918347093,dist0031@gmail.com,6151461871,2022-05-12,500000000,Inactive,EMP1023
+DIST0032,Công ty CP Huỳnh Hữu Việt Dịch vụ,Điểm bán lẻ,Traditional Trade,Hưng Yên,Miền Bắc,Nguyễn Công Kiên,02311385813,dist0032@gmail.com,5480108227,2015-12-06,1000000000,Active,EMP1043
+DIST0033,Công ty TNHH Hồ Thành Quân Phân phối,Nhà phân phối cấp 1,Traditional Trade,Hưng Yên,Miền Bắc,Bùi Thành Mai,02822994772,dist0033@gmail.com,2972155594,2017-09-23,500000000,Active,EMP1043
+DIST0034,Công ty CP Đỗ Thị Dũng Phân phối,Điểm bán lẻ,Traditional Trade,Hưng Yên,Miền Bắc,Vũ Văn Nam,02735926908,dist0034@gmail.com,9014079375,2022-07-08,2000000000,Active,EMP1012
+DIST0035,Công ty TNHH Bùi Thành Trung Dịch vụ,Đại lý cấp 2,Traditional Trade,Hưng Yên,Miền Bắc,Trần Thị Khoa,02947105922,dist0035@gmail.com,2371561678,2015-06-23,2000000000,Active,EMP1097
+DIST0036,Công ty TNHH Dương Minh Giang Phân phối,Điểm bán lẻ,Traditional Trade,Hưng Yên,Miền Bắc,Bùi Minh Nam,02470817008,dist0036@gmail.com,4302446251,2018-10-31,2000000000,Active,EMP1097
+DIST0037,Công ty TNHH Ngô Hồng Sơn Phân phối,Đại lý cấp 2,Traditional Trade,Hải Dương,Miền Bắc,Huỳnh Công Kiên,02774228866,dist0037@gmail.com,7231689423,2015-04-01,1000000000,Active,EMP1001
+DIST0038,Công ty CP Ngô Thành Linh Phân phối,Đại lý cấp 2,Modern Trade,Hải Dương,Miền Bắc,Bùi Bá Tiến,02987887333,dist0038@gmail.com,5184586641,2016-08-06,1000000000,Active,EMP1067
+DIST0039,Công ty TNHH Dương Hữu Vân Thương mại,Đại lý cấp 2,Traditional Trade,Hải Dương,Miền Bắc,Dương Hồng Long,02652751939,dist0039@gmail.com,9705727946,2017-05-18,500000000,Inactive,EMP1082
+DIST0040,Công ty TNHH Ngô Công Hải Dịch vụ,Điểm bán lẻ,Modern Trade,Nam Định,Miền Bắc,Ngô Thị Lộc,02828443123,dist0040@gmail.com,6929772635,2018-04-09,1000000000,Active,EMP1001
+DIST0041,Công ty Tư nhân Trần Thành Tâm Phân phối,Đại lý cấp 2,Traditional Trade,Nam Định,Miền Bắc,Bùi Thị An,02886304882,dist0041@gmail.com,7498019659,2016-11-22,1000000000,Active,EMP1034
+DIST0042,Công ty Tư nhân Vũ Bá Lộc Phân phối,Nhà phân phối cấp 1,Traditional Trade,Nam Định,Miền Bắc,Ngô Hồng Uyên,02395584915,dist0042@gmail.com,3493803008,2019-03-11,500000000,Active,EMP1034
+DIST0043,Công ty CP Trần Hữu Hải Phân phối,Nhà phân phối cấp 1,Traditional Trade,Nam Định,Miền Bắc,Bùi Văn Nhân,02387278299,dist0043@gmail.com,6851379262,2023-03-05,200000000,Inactive,EMP1023
+DIST0044,Công ty TNHH Lê Văn Yến Phân phối,Đại lý cấp 2,E-commerce,Nam Định,Miền Bắc,Trần Thị Thảo,02322635721,dist0044@gmail.com,3670400069,2018-12-07,1000000000,Active,EMP1034
+DIST0045,Công ty CP Dương Thành Khoa Phân phối,Điểm bán lẻ,Modern Trade,Nam Định,Miền Bắc,Phạm Quốc Uyên,02197474771,dist0045@gmail.com,6360446789,2020-03-28,2000000000,Active,EMP1097
+DIST0046,Công ty CP Đặng Minh Thắng Phân phối,Điểm bán lẻ,Traditional Trade,Thái Bình,Miền Bắc,Hồ Công Nhân,02397394910,dist0046@gmail.com,8972569293,2018-06-21,200000000,Active,EMP1001
+DIST0047,Công ty TNHH Dương Bá Lộc Dịch vụ,Đại lý cấp 2,Modern Trade,Thái Bình,Miền Bắc,Nguyễn Hồng Khoa,02323424548,dist0047@gmail.com,7024002496,2020-05-31,200000000,Active,EMP1012
+DIST0048,Công ty CP Huỳnh Quốc An Phân phối,Điểm bán lẻ,E-commerce,Thái Bình,Miền Bắc,Vũ Thị Linh,02593570612,dist0048@gmail.com,9409942925,2016-12-23,1000000000,Active,EMP1097
+DIST0049,Công ty CP Nguyễn Quốc Uyên Phân phối,Nhà phân phối cấp 1,E-commerce,Thái Bình,Miền Bắc,Đặng Hồng Trung,02132785724,dist0049@gmail.com,3497453485,2020-05-06,500000000,Active,EMP1097
+DIST0050,Công ty Tư nhân Huỳnh Hồng Tâm Phân phối,Đại lý cấp 2,Traditional Trade,Thái Bình,Miền Bắc,Đặng Xuân Sơn,02949343599,dist0050@gmail.com,2638211484,2021-08-24,500000000,Active,EMP1023
+DIST0051,Công ty Tư nhân Trần Đức Thắng Phân phối,Đại lý cấp 2,Traditional Trade,Đà Nẵng,Miền Trung,Đỗ Văn Ngân,02224028930,dist0051@gmail.com,5783812364,2015-02-14,200000000,Active,EMP1034
+DIST0052,Công ty Tư nhân Trần Hồng Hải Dịch vụ,Đại lý cấp 2,Traditional Trade,Đà Nẵng,Miền Trung,Đặng Đức Trung,02573608118,dist0052@gmail.com,6879677455,2022-02-03,2000000000,Active,EMP1082
+DIST0053,Công ty CP Đặng Quốc Sơn Thương mại,Đại lý cấp 2,E-commerce,Đà Nẵng,Miền Trung,Dương Đức Hà,02156889899,dist0053@gmail.com,3062888248,2015-05-13,1000000000,Active,EMP1043
+DIST0054,Công ty Tư nhân Bùi Thành Cường Thương mại,Đại lý cấp 2,Modern Trade,Đà Nẵng,Miền Trung,Đỗ Văn Dũng,02518301139,dist0054@gmail.com,3856128707,2020-04-16,1000000000,Active,EMP1097
+DIST0055,Công ty TNHH Đỗ Công An Phân phối,Điểm bán lẻ,Traditional Trade,Đà Nẵng,Miền Trung,Đặng Thị Lan,02797967268,dist0055@gmail.com,2241866116,2017-10-04,500000000,Active,EMP1034
+DIST0056,Công ty TNHH Trần Công Hùng Dịch vụ,Điểm bán lẻ,Traditional Trade,Đà Nẵng,Miền Trung,Phạm Bá Yến,02579321109,dist0056@gmail.com,4726147200,2015-08-02,200000000,Active,EMP1052
+DIST0057,Công ty TNHH Hồ Thanh An Phân phối,Điểm bán lẻ,Traditional Trade,Đà Nẵng,Miền Trung,Đặng Thanh Thắng,02982258590,dist0057@gmail.com,9545589991,2016-07-15,200000000,Active,EMP1023
+DIST0058,Công ty Tư nhân Dương Quốc Sơn Dịch vụ,Đại lý cấp 2,Traditional Trade,Huế,Miền Trung,Hoàng Công Việt,02963501135,dist0058@gmail.com,2576516653,2016-11-10,1000000000,Active,EMP1043
+DIST0059,Công ty TNHH Đặng Quốc An Phân phối,Nhà phân phối cấp 1,Modern Trade,Huế,Miền Trung,Nguyễn Hữu Hùng,02545403019,dist0059@gmail.com,9730925040,2018-04-15,2000000000,Active,EMP1012
+DIST0060,Công ty Tư nhân Nguyễn Thành Dũng Thương mại,Đại lý cấp 2,Traditional Trade,Huế,Miền Trung,Lê Xuân Hải,02786438428,dist0060@gmail.com,9898010754,2020-01-21,500000000,Active,EMP1034
+DIST0061,Công ty CP Đỗ Văn Lộc Thương mại,Điểm bán lẻ,Traditional Trade,Huế,Miền Trung,Phạm Đức Bình,02758194660,dist0061@gmail.com,2833065904,2020-01-21,2000000000,Active,EMP1012
+DIST0062,Công ty Tư nhân Đặng Minh Mai Dịch vụ,Đại lý cấp 2,Modern Trade,Huế,Miền Trung,Đỗ Minh Sơn,02178348121,dist0062@gmail.com,5734108171,2020-07-19,500000000,Active,EMP1052
+DIST0063,Công ty CP Phạm Thị Ngân Thương mại,Điểm bán lẻ,E-commerce,Huế,Miền Trung,Đặng Công Thảo,02470411751,dist0063@gmail.com,1966015357,2022-06-21,2000000000,Active,EMP1034
+DIST0064,Công ty TNHH Phạm Xuân Hải Thương mại,Nhà phân phối cấp 1,E-commerce,Huế,Miền Trung,Nguyễn Văn Thảo,02510743738,dist0064@gmail.com,3395997735,2017-05-28,1000000000,Active,EMP1067
+DIST0065,Công ty Tư nhân Hoàng Minh Quân Thương mại,Đại lý cấp 2,E-commerce,Quảng Nam,Miền Trung,Bùi Đức Bình,02438292341,dist0065@gmail.com,9738177642,2020-01-21,200000000,Active,EMP1082
+DIST0066,Công ty TNHH Lê Thành Thảo Dịch vụ,Đại lý cấp 2,E-commerce,Quảng Nam,Miền Trung,Ngô Đức Việt,02327136339,dist0066@gmail.com,1575648030,2019-10-23,500000000,Active,EMP1052
+DIST0067,Công ty Tư nhân Dương Bá Hà Thương mại,Điểm bán lẻ,Traditional Trade,Quảng Nam,Miền Trung,Huỳnh Thành Lộc,02582285311,dist0067@gmail.com,3132379568,2017-08-26,200000000,Active,EMP1001
+DIST0068,Công ty CP Lý Thành Nam Dịch vụ,Đại lý cấp 2,E-commerce,Quảng Nam,Miền Trung,Trần Thị Nam,02577847198,dist0068@gmail.com,2378556425,2021-05-19,2000000000,Inactive,EMP1012
+DIST0069,Công ty CP Ngô Văn Khoa Dịch vụ,Điểm bán lẻ,Modern Trade,Quảng Nam,Miền Trung,Bùi Bá Dũng,02895146048,dist0069@gmail.com,2345297174,2020-07-07,500000000,Active,EMP1067
+DIST0070,Công ty Tư nhân Lý Quốc Phúc Dịch vụ,Điểm bán lẻ,Modern Trade,Quảng Nam,Miền Trung,Phạm Hữu Vân,02713758264,dist0070@gmail.com,5209756862,2023-01-25,200000000,Active,EMP1043
+DIST0071,Công ty TNHH Nguyễn Thành Tiến Dịch vụ,Đại lý cấp 2,E-commerce,Quảng Nam,Miền Trung,Vũ Minh Tâm,02396285270,dist0071@gmail.com,8371849048,2015-01-08,500000000,Active,EMP1082
+DIST0072,Công ty Tư nhân Nguyễn Xuân Việt Phân phối,Nhà phân phối cấp 1,Modern Trade,Quảng Nam,Miền Trung,Lê Thị Linh,02486824588,dist0072@gmail.com,7085321426,2018-01-30,500000000,Active,EMP1034
+DIST0073,Công ty CP Đỗ Minh Cường Phân phối,Đại lý cấp 2,Modern Trade,Quảng Ngãi,Miền Trung,Hồ Công Bình,02417002183,dist0073@gmail.com,8986433361,2019-11-27,200000000,Inactive,EMP1012
+DIST0074,Công ty Tư nhân Trần Minh Tiến Dịch vụ,Điểm bán lẻ,E-commerce,Quảng Ngãi,Miền Trung,Ngô Đức Cường,02674461916,dist0074@gmail.com,9029900566,2022-09-01,200000000,Active,EMP1023
+DIST0075,Công ty Tư nhân Nguyễn Minh Linh Dịch vụ,Nhà phân phối cấp 1,Traditional Trade,Quảng Ngãi,Miền Trung,Phạm Thanh Hùng,02511806663,dist0075@gmail.com,3503482697,2019-11-02,2000000000,Active,EMP1001
+DIST0076,Công ty Tư nhân Lê Quốc Phương Thương mại,Nhà phân phối cấp 1,Modern Trade,Quảng Ngãi,Miền Trung,Đỗ Văn Ngân,02161284978,dist0076@gmail.com,2346238970,2019-08-19,500000000,Active,EMP1097
+DIST0077,Công ty Tư nhân Trần Bá Linh Phân phối,Đại lý cấp 2,Modern Trade,Quảng Ngãi,Miền Trung,Huỳnh Hữu Trung,02334857476,dist0077@gmail.com,8531124530,2021-06-01,200000000,Active,EMP1034
+DIST0078,Công ty TNHH Ngô Đức Hùng Thương mại,Điểm bán lẻ,Modern Trade,Quảng Ngãi,Miền Trung,Lý Thành Cường,02321576560,dist0078@gmail.com,5673418625,2022-02-16,2000000000,Active,EMP1001
+DIST0079,Công ty Tư nhân Trần Thị Dũng Dịch vụ,Đại lý cấp 2,Traditional Trade,Bình Định,Miền Trung,Hồ Minh Thảo,02357160328,dist0079@gmail.com,4131185305,2015-11-05,500000000,Active,EMP1023
+DIST0080,Công ty CP Bùi Văn Hà Thương mại,Điểm bán lẻ,Modern Trade,Bình Định,Miền Trung,Bùi Thị Giang,02542863293,dist0080@gmail.com,3359016166,2016-02-23,200000000,Active,EMP1034
+DIST0081,Công ty TNHH Đỗ Hồng Long Thương mại,Đại lý cấp 2,Modern Trade,Bình Định,Miền Trung,Đặng Bá An,02776114551,dist0081@gmail.com,3801560803,2015-08-28,2000000000,Active,EMP1012
+DIST0082,Công ty TNHH Ngô Thanh Lộc Phân phối,Đại lý cấp 2,E-commerce,Bình Định,Miền Trung,Dương Hồng Hùng,02354753319,dist0082@gmail.com,6569015921,2016-04-28,200000000,Active,EMP1043
+DIST0083,Công ty TNHH Dương Thanh Kiên Phân phối,Đại lý cấp 2,Traditional Trade,Khánh Hòa,Miền Trung,Nguyễn Thành Lan,02737657966,dist0083@gmail.com,9387789765,2022-05-27,200000000,Inactive,EMP1001
+DIST0084,Công ty TNHH Dương Hồng Sơn Thương mại,Đại lý cấp 2,E-commerce,Khánh Hòa,Miền Trung,Bùi Quốc Dũng,02962259320,dist0084@gmail.com,8978866793,2020-08-27,500000000,Active,EMP1012
+DIST0085,Công ty CP Ngô Hồng Hải Phân phối,Điểm bán lẻ,Traditional Trade,Khánh Hòa,Miền Trung,Vũ Hồng Long,02117093144,dist0085@gmail.com,7758057923,2016-01-20,200000000,Active,EMP1067
+DIST0086,Công ty Tư nhân Phạm Thanh Nhân Phân phối,Điểm bán lẻ,Modern Trade,Nghệ An,Miền Trung,Huỳnh Thanh Vân,02348736445,dist0086@gmail.com,6260369722,2021-03-07,500000000,Active,EMP1023
+DIST0087,Công ty CP Hồ Bá Hà Thương mại,Nhà phân phối cấp 1,E-commerce,Nghệ An,Miền Trung,Huỳnh Bá Ngân,02568163128,dist0087@gmail.com,5422959310,2019-01-01,200000000,Active,EMP1097
+DIST0088,Công ty TNHH Trần Đức Phúc Dịch vụ,Điểm bán lẻ,Traditional Trade,Nghệ An,Miền Trung,Trần Minh Vân,02818363875,dist0088@gmail.com,8460869738,2017-06-17,500000000,Active,EMP1097
+DIST0089,Công ty Tư nhân Hoàng Công Giang Dịch vụ,Điểm bán lẻ,Traditional Trade,Nghệ An,Miền Trung,Trần Thị Phương,02253961562,dist0089@gmail.com,6754147279,2017-05-18,2000000000,Active,EMP1082
+DIST0090,Công ty TNHH Lê Công Tâm Phân phối,Nhà phân phối cấp 1,Modern Trade,Nghệ An,Miền Trung,Lê Quốc Nhân,02533553162,dist0090@gmail.com,9133442067,2022-02-19,200000000,Active,EMP1023
+DIST0091,Công ty Tư nhân Trần Văn Thắng Dịch vụ,Nhà phân phối cấp 1,Modern Trade,Nghệ An,Miền Trung,Bùi Hữu Hà,02335421225,dist0091@gmail.com,4218115036,2016-04-20,1000000000,Active,EMP1001
+DIST0092,Công ty TNHH Phạm Hồng Quân Thương mại,Điểm bán lẻ,Modern Trade,Nghệ An,Miền Trung,Vũ Minh Lộc,02597805269,dist0092@gmail.com,9182783029,2015-12-21,2000000000,Inactive,EMP1034
+DIST0093,Công ty TNHH Phạm Công Tâm Thương mại,Đại lý cấp 2,E-commerce,TP.HCM,Miền Nam,Đặng Thành Tuấn,02218116548,dist0093@gmail.com,8673460724,2015-12-29,200000000,Active,EMP1001
+DIST0094,Công ty TNHH Vũ Đức Thắng Dịch vụ,Điểm bán lẻ,Modern Trade,TP.HCM,Miền Nam,Huỳnh Văn Cường,02889167783,dist0094@gmail.com,7396988139,2015-09-15,200000000,Active,EMP1001
+DIST0095,Công ty CP Nguyễn Văn Mai Thương mại,Điểm bán lẻ,E-commerce,TP.HCM,Miền Nam,Nguyễn Công Tâm,02258894253,dist0095@gmail.com,9178212044,2020-04-27,200000000,Active,EMP1043
+DIST0096,Công ty CP Phạm Thị Linh Thương mại,Điểm bán lẻ,Traditional Trade,TP.HCM,Miền Nam,Ngô Hữu Thắng,02750951119,dist0096@gmail.com,1128844192,2017-10-16,200000000,Active,EMP1034
+DIST0097,Công ty Tư nhân Hồ Hồng Linh Thương mại,Nhà phân phối cấp 1,Traditional Trade,TP.HCM,Miền Nam,Trần Xuân Tiến,02943845604,dist0097@gmail.com,4558246261,2018-01-27,500000000,Active,EMP1052
+DIST0098,Công ty Tư nhân Huỳnh Thành Phúc Phân phối,Đại lý cấp 2,Traditional Trade,TP.HCM,Miền Nam,Vũ Thị Hải,02992671063,dist0098@gmail.com,3966482255,2022-03-20,1000000000,Active,EMP1034
+DIST0099,Công ty TNHH Ngô Minh Thảo Dịch vụ,Đại lý cấp 2,Traditional Trade,TP.HCM,Miền Nam,Huỳnh Thành Bình,02560923585,dist0099@gmail.com,7174026875,2017-06-14,1000000000,Active,EMP1034
+DIST0100,Công ty TNHH Nguyễn Minh Thắng Phân phối,Điểm bán lẻ,Traditional Trade,TP.HCM,Miền Nam,Đỗ Văn Nhân,02646024867,dist0100@gmail.com,1218536616,2021-07-02,500000000,Active,EMP1023
+DIST0101,Công ty CP Hoàng Công Quân Dịch vụ,Đại lý cấp 2,Modern Trade,Bình Dương,Miền Nam,Phạm Văn Kiên,02962774924,dist0101@gmail.com,7451363783,2015-06-23,500000000,Active,EMP1082
+DIST0102,Công ty CP Ngô Công Tuấn Phân phối,Nhà phân phối cấp 1,Traditional Trade,Bình Dương,Miền Nam,Dương Minh Khoa,02862747388,dist0102@gmail.com,2424887477,2020-03-22,200000000,Active,EMP1067
+DIST0103,Công ty TNHH Ngô Bá Khoa Dịch vụ,Đại lý cấp 2,E-commerce,Bình Dương,Miền Nam,Vũ Đức Long,02826595484,dist0103@gmail.com,3758219968,2022-01-28,1000000000,Active,EMP1097
+DIST0104,Công ty CP Trần Xuân Tuấn Dịch vụ,Đại lý cấp 2,Modern Trade,Bình Dương,Miền Nam,Dương Thị Cường,02131405346,dist0104@gmail.com,5638019066,2019-04-01,1000000000,Inactive,EMP1067
+DIST0105,Công ty CP Lý Bá Khoa Dịch vụ,Điểm bán lẻ,Traditional Trade,Bình Dương,Miền Nam,Phạm Văn Trung,02328568872,dist0105@gmail.com,1889188837,2019-04-11,2000000000,Active,EMP1034
+DIST0106,Công ty TNHH Nguyễn Hữu Giang Dịch vụ,Điểm bán lẻ,E-commerce,Bình Dương,Miền Nam,Phạm Văn Tâm,02761571617,dist0106@gmail.com,3566668356,2016-12-06,500000000,Active,EMP1023
+DIST0107,Công ty Tư nhân Nguyễn Minh Long Phân phối,Đại lý cấp 2,E-commerce,Đồng Nai,Miền Nam,Vũ Quốc Giang,02128056871,dist0107@gmail.com,9641082832,2020-10-13,1000000000,Active,EMP1043
+DIST0108,Công ty TNHH Vũ Công Long Dịch vụ,Đại lý cấp 2,Traditional Trade,Đồng Nai,Miền Nam,Ngô Công Nhân,02798648623,dist0108@gmail.com,1587993275,2018-06-25,2000000000,Active,EMP1097
+DIST0109,Công ty CP Đỗ Minh Giang Dịch vụ,Điểm bán lẻ,Modern Trade,Đồng Nai,Miền Nam,Đỗ Đức Bình,02473943402,dist0109@gmail.com,8684715987,2018-01-21,200000000,Active,EMP1012
+DIST0110,Công ty TNHH Lê Minh Nhân Dịch vụ,Đại lý cấp 2,Modern Trade,Đồng Nai,Miền Nam,Huỳnh Bá Tuấn,02422766088,dist0110@gmail.com,4533825242,2017-01-26,2000000000,Active,EMP1001
+DIST0111,Công ty TNHH Đặng Bá Khoa Phân phối,Điểm bán lẻ,E-commerce,Đồng Nai,Miền Nam,Huỳnh Bá Long,02255326157,dist0111@gmail.com,9845757651,2019-05-28,2000000000,Active,EMP1034
+DIST0112,Công ty TNHH Nguyễn Quốc Trung Dịch vụ,Nhà phân phối cấp 1,E-commerce,Đồng Nai,Miền Nam,Huỳnh Thị Lan,02291964895,dist0112@gmail.com,8189298909,2016-12-22,1000000000,Active,EMP1052
+DIST0113,Công ty Tư nhân Lê Quốc Tâm Dịch vụ,Đại lý cấp 2,Traditional Trade,Đồng Nai,Miền Nam,Lý Đức Tâm,02889889644,dist0113@gmail.com,6560663797,2021-04-29,1000000000,Active,EMP1067
+DIST0114,Công ty Tư nhân Phạm Thành Hà Dịch vụ,Đại lý cấp 2,E-commerce,Long An,Miền Nam,Hồ Hồng Phương,02744946872,dist0114@gmail.com,2180884867,2020-11-12,2000000000,Active,EMP1052
+DIST0115,Công ty CP Bùi Bá Quân Phân phối,Nhà phân phối cấp 1,E-commerce,Long An,Miền Nam,Nguyễn Thị Trung,02581571321,dist0115@gmail.com,9531810366,2015-12-15,1000000000,Active,EMP1023
+DIST0116,Công ty CP Phạm Thanh Lộc Phân phối,Nhà phân phối cấp 1,Modern Trade,Long An,Miền Nam,Vũ Quốc Dũng,02845007860,dist0116@gmail.com,2871833862,2022-05-18,1000000000,Active,EMP1052
+DIST0117,Công ty CP Dương Hữu Dũng Thương mại,Đại lý cấp 2,Traditional Trade,Cần Thơ,Miền Nam,Dương Thị Dũng,02461208181,dist0117@gmail.com,4056642119,2017-11-18,200000000,Active,EMP1097
+DIST0118,Công ty TNHH Phạm Đức Sơn Dịch vụ,Điểm bán lẻ,Traditional Trade,Cần Thơ,Miền Nam,Lê Thị Lan,02646904842,dist0118@gmail.com,1805864801,2017-08-17,1000000000,Active,EMP1001
+DIST0119,Công ty CP Dương Thành Quân Phân phối,Nhà phân phối cấp 1,Traditional Trade,Cần Thơ,Miền Nam,Phạm Xuân Nhân,02583555469,dist0119@gmail.com,1089644921,2015-11-03,500000000,Active,EMP1034
+DIST0120,Công ty Tư nhân Vũ Xuân Dũng Phân phối,Nhà phân phối cấp 1,Modern Trade,Tiền Giang,Miền Nam,Đỗ Quốc Thắng,02165386721,dist0120@gmail.com,8084390529,2021-10-09,1000000000,Active,EMP1052
+DIST0121,Công ty TNHH Trần Quốc Ngân Dịch vụ,Đại lý cấp 2,Modern Trade,Tiền Giang,Miền Nam,Đặng Bá Hùng,02588108621,dist0121@gmail.com,2185008236,2016-10-07,200000000,Active,EMP1043
+DIST0122,Công ty Tư nhân Vũ Thanh Phúc Dịch vụ,Nhà phân phối cấp 1,E-commerce,Tiền Giang,Miền Nam,Nguyễn Đức Quân,02684751979,dist0122@gmail.com,6949755899,2018-10-19,200000000,Inactive,EMP1012
+DIST0123,Công ty Tư nhân Lê Thanh An Thương mại,Đại lý cấp 2,E-commerce,Tiền Giang,Miền Nam,Lê Đức Hải,02748811423,dist0123@gmail.com,4232515987,2021-09-19,2000000000,Active,EMP1082
+DIST0124,Công ty Tư nhân Đỗ Hồng Phúc Phân phối,Nhà phân phối cấp 1,E-commerce,Tiền Giang,Miền Nam,Bùi Thành Nhân,02859083095,dist0124@gmail.com,7562185611,2021-03-29,500000000,Active,EMP1067
+DIST0125,Công ty TNHH Huỳnh Công Hải Dịch vụ,Nhà phân phối cấp 1,E-commerce,Tiền Giang,Miền Nam,Trần Quốc Việt,02376310548,dist0125@gmail.com,5001120707,2022-04-09,500000000,Active,EMP1034
+DIST0126,Công ty TNHH Ngô Thanh Dũng Dịch vụ,Điểm bán lẻ,Modern Trade,Vũng Tàu,Miền Nam,Nguyễn Thị Trung,02130019066,dist0126@gmail.com,7038243702,2015-12-20,1000000000,Active,EMP1043
+DIST0127,Công ty TNHH Lý Văn Hải Phân phối,Nhà phân phối cấp 1,Traditional Trade,Vũng Tàu,Miền Nam,Đỗ Đức Hải,02425994944,dist0127@gmail.com,3965328033,2022-04-13,1000000000,Active,EMP1082
+DIST0128,Công ty TNHH Huỳnh Văn Thắng Phân phối,Đại lý cấp 2,Traditional Trade,Vũng Tàu,Miền Nam,Đỗ Đức Tuấn,02763607585,dist0128@gmail.com,4742543309,2020-10-23,200000000,Active,EMP1097
+DIST0129,Công ty Tư nhân Hồ Văn Uyên Phân phối,Nhà phân phối cấp 1,E-commerce,Vũng Tàu,Miền Nam,Dương Thanh Việt,02286304701,dist0129@gmail.com,7277460428,2023-01-25,500000000,Active,EMP1043
+DIST0130,Công ty Tư nhân Đỗ Văn Hải Thương mại,Đại lý cấp 2,E-commerce,Vũng Tàu,Miền Nam,Phạm Thanh Lộc,02415138199,dist0130@gmail.com,3672263551,2015-01-09,1000000000,Active,EMP1023
+DIST0131,Công ty Tư nhân Ngô Thanh Mai Dịch vụ,Điểm bán lẻ,Traditional Trade,Vũng Tàu,Miền Nam,Hồ Bá Phúc,02879240243,dist0131@gmail.com,2602822204,2018-09-09,500000000,Active,EMP1001
+DIST0132,Công ty Tư nhân Hoàng Xuân Ngân Phân phối,Đại lý cấp 2,Modern Trade,Vũng Tàu,Miền Nam,Phạm Thành Uyên,02159233764,dist0132@gmail.com,8076844756,2021-06-18,500000000,Active,EMP1067
+DIST0133,Công ty TNHH Ngô Quốc Dũng Phân phối,Đại lý cấp 2,E-commerce,Vũng Tàu,Miền Nam,Hồ Văn Cường,02681529763,dist0133@gmail.com,5017147699,2018-09-14,1000000000,Inactive,EMP1023
+DIST0134,Công ty TNHH Đỗ Thị Giang Dịch vụ,Nhà phân phối cấp 1,Traditional Trade,Bình Phước,Miền Nam,Huỳnh Hồng Lộc,02997149075,dist0134@gmail.com,6444874031,2022-10-07,500000000,Inactive,EMP1001
+DIST0135,Công ty TNHH Lê Đức Ngân Thương mại,Đại lý cấp 2,E-commerce,Bình Phước,Miền Nam,Bùi Bá Lộc,02647844158,dist0135@gmail.com,4682501270,2019-11-30,2000000000,Active,EMP1043
+DIST0136,Công ty CP Vũ Hồng Nhân Thương mại,Nhà phân phối cấp 1,Traditional Trade,Bình Phước,Miền Nam,Phạm Thanh Bình,02373746761,dist0136@gmail.com,5532078041,2023-06-04,200000000,Active,EMP1043
+DIST0137,Công ty TNHH Đặng Công Hà Phân phối,Đại lý cấp 2,Modern Trade,Bình Phước,Miền Nam,Huỳnh Thị An,02137659916,dist0137@gmail.com,9600102888,2015-11-14,200000000,Active,EMP1043
+DIST0138,Công ty TNHH Nguyễn Văn Uyên Phân phối,Điểm bán lẻ,Traditional Trade,Bình Phước,Miền Nam,Vũ Thành Phương,02461518463,dist0138@gmail.com,6787099951,2019-01-22,2000000000,Active,EMP1012
