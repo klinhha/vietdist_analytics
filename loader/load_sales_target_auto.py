@@ -152,7 +152,7 @@ sheets = pd.read_excel(
 
 # print(sheets.keys())       # bỏ vào # để python không chạy lần 2
 
-# đọc xem định dnagj file được viết như thế nào để sau đó chuyển sang dạng long
+# đọc xem định dạng file được viết như thế nào để sau đó chuyển sang dạng long
 # print(sheets["Plan_v1_Original"].head())
 # print("===== V1 =====")
 # print(sheets["Plan_v1_Original"].columns.tolist())

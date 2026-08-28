@@ -38,74 +38,51 @@ service = get_service_account()
 
 buffer = download_data(service, file_id= '1w8m7d8Z7b0tE_xNLYv6KETypYf4un6Kj')
 
-# 1. Đọc file
-# =========================
-# V1
-# =========================
-
-data_v1 = read_file(
-    'employee_master.xlsx',
+# Đọc tất cả các sheet
+sheets = pd.read_excel(
     buffer,
-    sheet_name='Employee_v1_StartYear'
+    engine="openpyxl",
+    sheet_name=None
 )
 
-data_v1["recorded_at"] = pd.Timestamp.now()
+print(sheets.keys())
 
+
+# Lấy từng sheet
+employee_v1 = sheets["Employee_v1_StartYear"]
+employee_v2 = sheets["Employee_v2_Adjustment"]
+change_log = sheets["Change_Log"]
+
+
+# Thêm timestamp
+recorded_at = pd.Timestamp.now()
+
+employee_v1["recorded_at"] = recorded_at
+employee_v2["recorded_at"] = recorded_at
+change_log["recorded_at"] = recorded_at
+
+
+# Load V1
 load_to_postgres(
-    data_v1,
+    employee_v1,
     table_name="Employee_Master_v1",
     schema="bronze",
     if_exists="replace"
 )
 
 
-# =========================
-# V2
-# =========================
-
-data_v2 = read_file(
-    'employee_master.xlsx',
-    buffer,
-    sheet_name='Employee_v2_Adjustment'
-)
-
-data_v2["recorded_at"] = pd.Timestamp.now()
-
+# Load V2
 load_to_postgres(
-    data_v2,
+    employee_v2,
     table_name="Employee_Master_v2",
     schema="bronze",
     if_exists="replace"
 )
 
 
-# =========================
-# Change Log
-# =========================
-
-change_log = read_file(
-    'employee_master.xlsx',
-    buffer,
-    sheet_name='Change_Log'
-)
-
-change_log["recorded_at"] = pd.Timestamp.now()
-
+# Load Change Log
 load_to_postgres(
     change_log,
     table_name="Employee_Change_Log",
     schema="bronze",
-    if_exists="replace"
-)
-
-data_v1 = read_file(
-    'employee_master.xlsx',
-    buffer,
-    sheet_name='Employee_v1_StartYear'
-)
-
-print(data_v1[data_v1['employee_id'].isin([
-    'EMP1112',
-    'EMP1113',
-    'EMP1114'
-])])
+    if_exists="replace")
