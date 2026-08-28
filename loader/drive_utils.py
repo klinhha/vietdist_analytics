@@ -78,6 +78,9 @@ def read_file(file_name, buffer, sheet_name=0):
             engine = "openpyxl"
          ) #excel khac csv, phai truyen engine de doc du lieu tu excel, o day dung openpyxl de doc du lieu tu excel
             # engine nhu la 1 cầu nối
+            # sheet name = none là đọc tất cả các sheets trong file
+            # chỉ cần dùng sheet name = sheet name khi trong file có nhièu sheets và muốn chỉ đích danh trang sheet muốn đọc
+            # còn với file chỉ có 1 trang sheet thì không cần để sheet name vì python sẽ tự mặc định đọc trang đầu tiên
 
     else:
         raise ValueError("File format not supported. Only CVS and Excel files are allowed")   
