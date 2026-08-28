@@ -1,5 +1,7 @@
 import os ## lấy tất cả thông tin từ hệ điều hành (operational system)
 
+from urllib.parse import quote_plus  #biến ký tự đặc biệt trong password của postgres thành dạng an toàn để đưa vào URL
+
 from io import BytesIO # cho phep tuong tac voi RAM bang python. tuc la luu du lieu vao RAM thay vi o dia.
 
 import pandas as pd # pandas la thu vien xu ly du lieu tren python, pandas co kha nang doc du lieu tu bang, file excel, csv, json, sql, html, xml, parquet, feather, hdf5, msgpack, stata, sas7bdat, pickle va nhieu dinh dang khac.
@@ -98,6 +100,8 @@ def create_connection_postgres():
     PG_HOST = os.getenv("PG_HOST")
     PG_PORT = os.getenv("PG_PORT")
 
+    PG_PWD = quote_plus(PG_PWD) # Do passửod trong postgres có chứa ký tự đặc biển là '@' nên cần dùng quote_plus để biến ký tự đó thành dạng an toàn để đưa vào URL
+
     connection_string = (
         f"postgresql+psycopg2://{PG_USER}:{PG_PWD}@{PG_HOST}:{PG_PORT}/{PG_DATABASE_NAME}"
     ) #truyen cac bien o tren vao connection string de ket noi den postgre, phai dung f"..." de truyen bien vao chuoi
@@ -110,8 +114,7 @@ def create_connection_postgres():
 
 # day data vao postgres = B6
 def load_to_postgres(df, table_name, schema = "bronze", if_exists = 'replace'):  #du lieu nao duoc dua vao postgres, ten gi, thuoc schema nao, ...
-    connection_string = create_connection_postgres()
-    engine = create_engine(connection_string)
+    engine = create_connection_postgres()       # engine là cầu nối giữa python và postgres
     df.to_sql(
         name = table_name,
         con = engine,
@@ -127,11 +130,96 @@ def load_to_postgres(df, table_name, schema = "bronze", if_exists = 'replace'): 
 service = get_service_account() # goi ham de lay service account
 buffer = download_data(service, file_id = '1-BLii_-P0NQ4jlcG9ckbyfkZk54vo19s') # goi ham de download data tu gg drive ve buffer
 
-data = read_file('sales_target.xlsx', buffer) # goi ham de doc data tu buffer va truyen ra dataframe(df) de xu ly tiep, luc nay data = df
+# Dối với các file khác thì có thể viết như dưới dây:
+# data = read_file('sales_target.xlsx', buffer) # goi ham de doc data tu buffer va truyen ra dataframe(df) de xu ly tiep, luc nay data = df
 # sau do khi goi ham load_to_postgres thi python se hieu la lay dataframe da duoc truyen vao bang co ten "..." roi dua vao postgres
 
-data['recorded_at'] = pd.Timestamp.now()
+#Tạo Timestamp để record xem thông tin được tạo khi nào
+# data['recorded_at'] = pd.Timestamp.now()
 
-print(data) 
+# print(data) 
 
+# Nhưng riêng với file load_sales_target_plan thì phải làm cách khác vì file này có 2 version:
 
+buffer.seek(0) # dua con tro ve dau buffer de doc du lieu tu dau
+
+# Nếu viết read_file như trên thì python sẽ chỉ đọc 1 file sheet và trả về 1 Dataframe duy nhất, nhưng sales_target có 2 sheets nên cần trả về 2 data frame
+sheets = pd.read_excel(
+    buffer,
+    sheet_name=None,
+    engine="openpyxl"
+)
+
+# print(sheets.keys())       # bỏ vào # để python không chạy lần 2
+
+# đọc xem định dnagj file được viết như thế nào để sau đó chuyển sang dạng long
+# print(sheets["Plan_v1_Original"].head())
+# print("===== V1 =====")
+# print(sheets["Plan_v1_Original"].columns.tolist())
+
+#print("\n===== V2 =====")
+#print(sheets["Plan_v2_Adjustment_H2"].head())
+#print(sheets["Plan_v2_Adjustment_H2"].columns.tolist())
+
+# Lấy 2 version
+v1 = sheets["Plan_v1_Original"].copy()
+v2 = sheets["Plan_v2_Adjustment_H2"].copy()
+
+# Tạo bảng Metadata của các version
+sales_target_files = pd.DataFrame([
+    {
+        "version_label": "v1",
+        "sheet_name": "Plan_v1_Original"
+    },
+    {
+        "version_label": "v2",
+        "sheet_name": "Plan_v2_Adjustment_H2"
+    }
+])
+
+# Tạo bảng để lưu toàn bộ thông tin của cả v1 và v2 và ghép chúng thành 1 dataframe mới
+sales_targets_raw = pd.concat(
+    [v1, v2],
+    ignore_index=True
+)
+
+# Tạo month_col
+sales_targets_raw["month_col"] = (
+    "T" + sales_targets_raw["month"].astype(str)
+)
+
+# Timestamp
+sales_targets_raw["recorded_at"] = pd.Timestamp.now()
+
+sales_target_files["recorded_at"] = pd.Timestamp.now()
+
+# Kiểm tra
+#print("===== VERSION =====")
+#print(sales_targets_raw["plan_version"].unique())
+
+#print("\n===== MONTH =====")
+#print(sorted(sales_targets_raw["month_col"].unique()))
+
+#print("\n===== FILE METADATA =====")
+#print(sales_target_files)
+
+#print("\n===== RAW DATA =====")
+#print(sales_targets_raw.head())
+
+#print(sales_targets_raw["plan_version"].value_counts())
+#print(sales_targets_raw["month_col"].unique())
+
+#load bảng saes_target_files và raw vào postgres
+load_to_postgres(
+    sales_target_files,
+    "sales_target_files",
+    schema="bronze",
+    if_exists="replace"
+)
+
+load_to_postgres(
+    sales_targets_raw,
+    "sales_targets_raw",
+    schema="bronze",
+    if_exists="replace"
+)
